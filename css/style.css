@@ -1,0 +1,43 @@
+:root {
+    --red: #cd4541;
+  }
+  
+  .red {
+    color: var(--red);
+}
+.navbar-nav > .nav-item {
+    margin-left: 15px;
+  }
+
+section {
+    display: flex;
+    padding-top: 9%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.btn-primary {
+    border: 0px;
+    color: white;
+    background-color: var(--red);
+}
+.card {
+    margin-bottom: 25px;
+    box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
+  }
+
+#third {
+    background-image: url(../img/banner.jpg);
+    justify-content: center;
+    min-height: 650px;
+}
+
+#fourth > .container > p:nth-last-of-type(1) {
+    font-size: 25px;
+    margin-bottom: 100px;
+  }

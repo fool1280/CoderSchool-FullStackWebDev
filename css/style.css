@@ -2,7 +2,7 @@
     --red: #cd4541;
   }
   
-  .red {
+.red {
     color: var(--red);
 }
 .navbar-nav > .nav-item {
